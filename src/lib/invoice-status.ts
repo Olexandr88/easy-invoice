@@ -57,7 +57,7 @@ export const getInvoiceTableStatusClass = (
 
   if (status === "offramp_failed") {
     return "bg-red-50 text-red-700";
-  }  
+  }
 
   if (
     status === "offramp_pending" ||
@@ -65,7 +65,7 @@ export const getInvoiceTableStatusClass = (
     status === "processing"
   ) {
    return "bg-orange-50 text-orange-700";
-  }  
+  }
 
   return "bg-yellow-50 text-yellow-700";
 };
@@ -92,7 +92,7 @@ export const getPaymentSectionStatusClass = (
     status === "processing"
   ) {
     return "bg-warning/10 text-warning-foreground";
-  }  
+  }
 
   return "bg-primary/10 text-primary";
 };
